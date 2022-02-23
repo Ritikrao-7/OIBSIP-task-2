@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <div class="bord">
+  <h1>Virat Kohli</h1>
+  <marquee> The leader of the Pack </marquee>
+  <marquee direction="right" ;
+    behavior="alternate" ;
+    style="border:rgb(167, 143, 79) 2px SOLID">
+    best Batsman of the Decade
+  </marquee>
+<div class="rit">
+<h2>Greatest Of All time</h2></div>
+<div classv="ra">
+<p>Virat Kohli  ( born 5 November 1988) is an Indian international cricketer and former captain of the Indian national team. He plays for Delhi in domestic cricket and Royal Challengers Bangalore in the Indian Premier League as a right-handed batsman. Kohli is often considered one of the best batsmen of his era and some critics believe him to be one of the best limited-overs batsmen in history.Between 2013 and 2022, Kohli captained the India cricket team in more than 200 matches across all three formats</p>
+</div>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1JQelCTn2OTkQZAT30XcYfqbikKzPMPadTA&usqp=CAU" style="width:100%">
+  <div class="text">Rcb Captain</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnqHg_1xOKPi2IvVg7_d3duPeZO8uUaFZUxw&usqp=CAU"  style="width:100%">
+  <div class="text">Odi Cricket</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk63mtWnB43821TRfHfgbw3uVapYpG4sWocg&usqp=CAU" style="width:100%">
+  <div class="text">legend of Tests</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+<br>
+<h2> Virat Kohli's Records</h2>
+<div class ="records">
+</div>
+<div class ="a">
+<ul>
+    
+    <li>Virat Kohli is the only Indian batsman who got 890 rating points in the ICC ODI ranking. Previously Sachin Tendulkar got the best rating of 887 in 1998.</li>
+    <li>Virat Kolhi has the record of having the highest ICC rating points (922) in the ICC Player Rankings for Test Batsmen.</li>
+    <li>Virat Kohli scored six double centuries as a captain in test matches. He surpassed Cricket legend Brian Lara, who had five double centuries as a test captain.</li>
+    <li>Virat Kohli has the most number of 150+ scores as captain in Tests – 9 times.</li>
+    <li>Virat Kohli became the first player to hit consecutive 3 centuries in against two opponents (West Indies & Sri Lanka).</li>
+    <li>Kolhi is the most successful Indian ODI captain. Kohli’s success rate is 75.89% as a captain which is better than M.S. Dhoni.</li>
+    <li>Virat Kohli scored more than 20,000 runs at an average of over 50 in all formats -Test matches, One Day Internationals, and T-20 matches.</li>
+    <li>Rahul Dravid scored 10,000 ODI runs after playing 10 years, 317 days while Kohli achieved this by playing just 10 years and 68 days.</ul></li>
+    <button onclick="document.location='https://en.wikipedia.org/wiki/Virat_Kohli'">read more..</button>
+    </div>
+    <br>
+    <h2>Awards</h2>
+    <div class="b">
+    <ul>
+        <li>ICC ODI Player of the Year: 2012, 2017</li>
+        <li>ICC Test Team of the Year: 2017 (captain)</li>
+        <li>ICC Test Team of the Year: 2017 (captain)</li>
+        <li>Padma Shri: 2017</li>
+        <li>ICC ODI Team of the Year: 2012, 2014, 2016 (captain), 2017 (captain)</li>
+        <li>Arjuna Award: 2013</li>
+        <li>Rajiv Gandhi Khel Ratna: 2018</li>
+        <li>Sir Garfield Sobers Award for ICC Men’s Cricketer of the Decade(2010-2020)</li>
+    </ul>
+</div>
+   
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 1000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</div>
+</html> 
